@@ -74,7 +74,7 @@ async function sendToDiscord(webhookUrl, embed) {
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({
         username: "🛡 AntiCheat Bot",
-        avatar_url: "https://i.imgur.com/Q3VhRRk.png",
+        avatar_url: "https://i.imgur.com/ePQ1ihb.jpeg",
         embeds: [embed],
       }),
     });
